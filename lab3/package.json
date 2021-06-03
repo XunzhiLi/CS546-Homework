@@ -1,0 +1,16 @@
+{
+    "name": "cs-546-lab-3",
+    "version": "1.0.0",
+    "description": "lab3",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js" 
+    },
+    "keywords": [
+      "lab3"
+    ],
+    "author": "Xunzhi Li,10457500",
+    "license": "ISC"
+  }
+  
