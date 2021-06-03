@@ -1,0 +1,28 @@
+html
+    body
+        h1 Login In
+        form(name="userform" id="login-form" action="/login" method="POST")
+            label(for='username') Username:
+            input.search(
+            type='text'
+            name='username'
+            id="username"
+            placeholder='Enter your username'
+            )
+            <br/>
+            label(for='password') Password:
+            input.search(
+            type='text'
+            name='password'
+            id="password"
+            placeholder='Enter your password'
+            )
+            <br/>
+            button(type="submit" class="bt") Login
+
+        if question == 'pwd'
+            p Wrong Password
+        if question == 'usn'
+            p Invalid Username
+        else
+            p
