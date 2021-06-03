@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: darkgray;
+}
+.content {
+  border: 1px dashed #000;
+  width: 500px;
+  height: 800px;
+  margin: 40px auto;
+}
+.is-palindrome {
+  color: #0000ff;
+}
+.not-palindrome {
+  color: #ff0000;
+}
+h1 {
+  position: relative;
+  margin: 10px auto;
+  width: 70%;
+  background-color: darkgreen;
+  color: darkgrey;
+}
+.div_1 {
+  margin: 0 auto;
+  width: 200px;
+  height: 140px;
+}
+footer {
+  padding-bottom: 10px;
+}
+#attempts {
+  height: 360px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+.bt {
+  width: 90px;
+  border: 0px;
+}
+.bt:hover {
+  background-color: brown;
+  color: white;
+}
