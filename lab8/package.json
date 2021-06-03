@@ -1,0 +1,17 @@
+{
+    "name": "handlebars",
+    "version": "1.0.0",
+    "description": "This is lab8",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Xunzhi Li",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.0",
+        "mongodb": "^3.5.5"
+    }
+}

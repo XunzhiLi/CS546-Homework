@@ -1,0 +1,17 @@
+<h1 id="page_01_h1">The Best Palindrome Checker in the World!</h1>
+<main>
+    <p class="string_p">
+        A palindrome is a phrase that is spelled the same way, backwards
+        and forwards (ignoring spacing and punctuation; only
+        alphanumeric characters matter).My page is gonna to check
+        whether a string is a palindrome one.
+    </p>
+    <form method="POST" action="/result ">
+        <label for="check-palindrome">check-palindrome</label>
+        <input type="text" id="check-palindrome" name="st_" placeholder="input a string" />
+        <button type="submit" class="bt">Check</button>
+    </form>
+</main>
+ {{#if hasErrors}}
+  <p class="error">{{error}}</p>
+  {{/if}}

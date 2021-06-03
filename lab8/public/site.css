@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 13pt;
+}
+.error{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+    font-size: larger;
+}
+.string_p {
+    color: cornflowerblue;
+    width: 25%;
+}
+#check-palindrome {
+    width: 15%;
+}
+#page_01_h1 {
+    color: crimson;
+}
+
+a:link {
+    color: grey;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+#check-palindrome {
+    border: 1px solid #dc3545;
+    border-radius: 3px;
+    padding: 7px 0px;
+}
+
+p.success {
+    color: #28a745;
+}
+p.failure {
+    color: #dc3545;
+}
+.result {
+    font-family: cursive;
+    font-size: large;
+}
+#page_02_h1 {
+    color: darkgoldenrod;
+}
